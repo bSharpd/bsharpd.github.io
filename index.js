@@ -29,7 +29,7 @@ pika.ike= {dtilt : 87, uthrowThun : "115%-163%", fairUsmash : "",uthrow : "", bt
 pika.rob= {dtilt : 86, uthrowThun : "95%-153%", fairUsmash : "",uthrow : "", bthrow : "", bfjabconfirm : "yes", notes : ""};
 
 
-pika.yoshi= {dtilt : 86, uthrowThun : "93%-143%", fairUsmash : "",uthrow : "", bthrow : "", bfjabconfirm : "no", notes : ""};
+pika.yoshi= {dtilt : 86, uthrowThun : "93%-143%", fairUsmash : "",uthrow : "", bthrow : "", bfjabconfirm : "no", notes : "Don’t let him land. Only go for guaranteed combos. Be patient, wait for him to whiff. Don’t throw things out in neutral. trading with yoshi = death"};
 
 
 pika.link= {dtilt : 86, uthrowThun : "110%-150%", fairUsmash : "",uthrow : "", bthrow : "", bfjabconfirm : "yes", notes : ""};
@@ -168,8 +168,8 @@ function makeButtons(){
     for(var x in pika){
 		var button=document.createElement("button");
 		button.innerHTML=x;
+		button.className="charbtn";
 		document.body.appendChild(button);
-		//document.body.appendChild(document.createElement("br"));
 		button.onclick=function(event){
 			document.getElementById('dtilt').value=pika[event.target.innerHTML].dtilt;
 			document.getElementById('turnt').value=pika[event.target.innerHTML].uthrowThun;
