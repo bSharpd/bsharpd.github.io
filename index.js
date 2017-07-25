@@ -178,6 +178,7 @@ function makeButtons(){
 			document.getElementById('bthrow').value=pika[event.target.innerHTML].bthrow;
 			document.getElementById('platjab').value=pika[event.target.innerHTML].bfjabconfirm;
 			document.getElementById('genmunotes').value=pika[event.target.innerHTML].notes;
+			document.getElementById('charname').value=event.target.innerHTML;
 		};
 	}
 	}
