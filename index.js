@@ -1,5 +1,5 @@
 var pika = {};
-pika.bowser= {dtilt : 96, uthrowThun : "101%-167%", fairUsmash : "130ish",uthrow : "SV:215%", bthrow : "Edge:186%", bfjabconfirm : "yes", notes : ""};
+pika.bowser= {dtilt : 96, uthrowThun : "101%-167%", fairUsmash : "130ish",uthrow : "SV:215%", bthrow : "Edge:186%", bfjabconfirm : "yes", notes : "Pikachu can get huge conversions against Bowser because of his combo game, but the opposite is equally true thanks to Bowser’s damage output and kill power. Don’t be too predictable or commit to punishable options in neutral and you should be okay. Pikachu has the speed to float around him while not getting grabbed or punished, still you have to respect Bowser’s space. Killing Bowser as early as possible is also vital because of how much rage helps him in this matchup."};
 
 
 pika.dk= {dtilt : 94, uthrowThun : "104%-171", fairUsmash : "130ish",uthrow : "SV:223", bthrow : "Edge:182", bfjabconfirm : "yes", notes : ""};
