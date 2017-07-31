@@ -1,4 +1,25 @@
 @charset "UTF-8";
 
-@media (max-width: 1229px){
+@media (max-width: 800px){
+}
+
+h1 {
+	font-size: 22px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+textarea{
+	font-size: 18px;
+}
+
+input{
+	font-size: 16px;
+}
+#btndiv{
+	width: 600px;
+}
+.charbtn{
+	width: 100px;
+	height: 40px;
+
 }

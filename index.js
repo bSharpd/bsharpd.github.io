@@ -174,7 +174,7 @@ function makeButtons(){
 		var button=document.createElement("button");
 		button.innerHTML=x;
 		button.className="charbtn";
-		document.body.appendChild(button);
+		document.getElementById('btndiv').appendChild(button);
 		button.onclick=function(event){
 			document.getElementById('dtilt').value=pika[event.target.innerHTML].dtilt;
 			document.getElementById('turnt').value=pika[event.target.innerHTML].uthrowThun;
