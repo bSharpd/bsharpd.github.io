@@ -2,6 +2,8 @@
 
 @media (max-width: 800px){
 }
+background{
+}
 
 h1 {
 	font-size: 22px;
@@ -15,11 +17,11 @@ textarea{
 input{
 	font-size: 16px;
 }
-#btndiv{
+#btnlimit{
 	width: 600px;
+	
 }
 .charbtn{
 	width: 100px;
 	height: 40px;
-
 }
