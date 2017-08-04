@@ -3,39 +3,20 @@ body{
 	background-color: #9CC8F1;
 	width: auto;
 }
-<<<<<<< HEAD
 .infobox{
 	
-=======
-background{
-}
-
-h1 {
-	font-size: 22px;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
->>>>>>> origin/master
 }
 #t01{
 	margin-left: auto;
 	margin-right: auto;
 	
 }
-<<<<<<< HEAD
 #btndiv{
 	margin-left: auto;
 	margin-right: auto;
-=======
-#btnlimit{
->>>>>>> origin/master
 	width: 600px;
-	
 }
 .charbtn{
 	width: 100px;
-<<<<<<< HEAD
 	height:40px;
 }
-=======
-	height: 40px;
-}
->>>>>>> origin/master
