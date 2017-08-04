@@ -86,7 +86,7 @@ function makeButtons(){
 		var button=document.createElement("button");
 		button.innerHTML=x;
 		button.className="charbtn";
-		document.getElementById('btndiv').appendChild(button);
+		document.getElementById('btnlimit').appendChild(button);
 		button.onclick=function(event){
 			document.getElementById('dair').value=pika[event.target.innerHTML].dair;
 			document.getElementById('nair').value=pika[event.target.innerHTML].nair;
