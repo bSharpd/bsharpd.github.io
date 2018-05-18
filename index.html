@@ -6,11 +6,9 @@
 <link href="index.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<h1 style="font-size: 38px; color:#FFFFFF">bSharp's MU Reference Tool</h1>
-<p style="font-size: 20px">This tool is used for pika mains to quickly access MU knowledge for specific characters. As of 8.3.17 this only contains tumble %s, but will <br>
-shortly be updated to include kill confirm %s, as well as MU notes taken from the pikachu discord community MU guide.<br>
-	<b>Note:</b> all information has been taken from the resources tab of the pikachu discord. All credit for labbing goes to them (bless their patient souls)</p><br>
-	<p>These moves will put <input type="text" id="charname" value=""> into tumble at the following percents:</p><br>
+<h1 style="font-size: 38px; color:#FFFFFF">Pikachu Tumble Percents</h1>
+
+	<p style="font-size:24px">These moves will put <input type="text" style="font-size: 24px" id="charname" value=""> into tumble at the following percents:</p><br>
 <table id="t01" style="width: 50px; border-collapse: collapse;">
 <tbody>
 <tr>
@@ -27,7 +25,12 @@ shortly be updated to include kill confirm %s, as well as MU notes taken from th
 	<td style="font-weight: bold">Quick Attack2 <input type="text" id="qa2" class="infobox" value=""></td></tr>
 	</tbody>
 		</table><br>
-	<div id="btndiv"></div>
+	<div id="holdbtnpic">
+		<div id="btndiv"></div>
+		<span id="charpic">
+			<img id="piclink" src="https://vignette.wikia.nocookie.net/nintendo/images/6/68/Detective_Pikachu_-_Character_artwork_01.png/revision/latest?cb=20180113042003&path-prefix=en" alt="click a button" style="width: auto; height: 600px;">
+		</span>
+	</div>	
 <script type="text/javascript" src="index.js"></script>
 </body>
 </html>

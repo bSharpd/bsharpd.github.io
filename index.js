@@ -9,10 +9,12 @@ var allFtiltMid=[47,60,55,53,56,51,51,50,49,58,51,49,46,45,55,50,53,42,57,45,53,
 var allFtiltDown=[53,68,62,60,64,58,58,57,56,66,58,55,52,51,63,56,61,48,65,51,60,52,58,56,55,57,58,55,59,52,50,50,56,51,57,55,55,51,57,60,57,51,57,59,61,52,59,56,56,57,61,57,60,53,52];
 var allBairs=[39,49,45,43,46,42,42,41,41,47,42,40,38,37,45,41,44,35,47,37,43,38,42,41,40,42,42,40,43,38,36,37,41,37,41,40,40,37,41,44,41,37,41,43,44,38,43,41,41,42,44,41,43,39,38];
 var allQA2=[55,69,63,61,65,60,59,58,57,66,59,57,54,53,64,58,62,50,66,53,61,54,59,58,57,59,59,57,60,53,52,52,58,53,58,57,56,53,58,62,58,52,58,61,62,54,60,58,57,59,62,58,61,55,53];
+var imgNames=["bayonetta","koopa","secret08","captain_falcon","lizardon","cloud","kamui","secret04","diddy_kong","donkey_kong","secret05","secret10","secret01","fox","secret07","gekkouga","ike","secret11","dedede","kirby","link","little_mac","lucario","lucas","lucina","luigi","mario","marth","rockman","metaknight","mewtwo","secret09","secret03","pikmin","pac-man","palutena","peach","pikachu","pit","secret06","reflet","rosetta","roy","ryu","samus","sheik","shulk","sonic","toon_link","murabito","secret02","wii_fit_trainer","yoshi","zelda","zerosuit_samus"];
 
 
 function MU (refnum){ //constructor for MUs. Add a new array above (e.g. allDtilts) with information you'd like to access. Be sure to list the information by order of characters, alphabetically 
 	this.ref=refnum;
+	this.pic="https://www.smashbros.com/wiiu-3ds/images/character/" + imgNames[this.ref] + "/main.png";
 	this.dair=allDairs[this.ref];
 	this.nair=allNairs[this.ref];
 	this.dtilt=allDtilts[this.ref];
@@ -88,6 +90,7 @@ function makeButtons(){
 		button.className="charbtn";
 		document.getElementById('btndiv').appendChild(button);
 		button.onclick=function(event){
+			document.getElementById('piclink').src=pika[event.target.innerHTML].pic;
 			document.getElementById('dair').value=pika[event.target.innerHTML].dair;
 			document.getElementById('nair').value=pika[event.target.innerHTML].nair;
 			document.getElementById('weaknair').value=pika[event.target.innerHTML].weaknair;

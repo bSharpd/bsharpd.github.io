@@ -2,21 +2,34 @@
 body{
 	background-color: #9CC8F1;
 	width: auto;
+	height: auto;
+}
+#holdbtnpic{
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+
+#btndiv{
+	width: 600px;
+	float: left;
 }
 .infobox{
 	
 }
-#t01{
-	margin-left: auto;
-	margin-right: auto;
-	
-}
+
 #btndiv{
 	margin-left: auto;
 	margin-right: auto;
 	width: 600px;
+
 }
 .charbtn{
 	width: 100px;
 	height:40px;
 }
+#charpic{
+	margin-left: 100px;
+	float: left;
+}
+
